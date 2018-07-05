@@ -7,11 +7,11 @@
 //
 
 import UIKit
-
+import JVFloatLabeledTextField
 /**
  UITextField subclass to handle phone numbers formats
 */
-public class PhoneFormattedTextField: UITextField {
+public class PhoneFormattedTextField: JVFloatLabeledTextField {
 
     private let formatProxy: FormattedTextFieldDelegate
     private let formatter: PhoneFormatter
